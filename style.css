@@ -1,0 +1,81 @@
+/* #DADFE7 */
+/* *{
+    font-family: 'Roboto', sans-serif;
+font-family: 'Rubik', sans-serif;
+} */
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.bgMost{
+    background-color: #4249E5;
+    width: fit-content;
+    margin-top: -60px;
+    margin-left: 50px;
+}
+
+.textCol{
+    color: #cdd9e8;
+}
+
+.jetty{
+    color: #00BEC7;
+}
+
+.themeColor{
+    color: #4249E5;
+}
+
+.essP{
+    margin-top:-5px;
+}
+
+.month{
+    margin-top: -25px;
+}
+
+.monP{
+    font-size: 14px;
+}
+
+.marB{
+    margin-bottom: 20px;
+}
+
+.line{
+    width: 50px;
+    border-bottom: solid 1px;
+    margin-top: -100px;
+}
+
+.left-line{
+    height: 2px;
+    width: 50px;
+    margin-top: 8px;
+    background-color: #cdd9e8;
+}
+.right-line{
+    height: 2px;
+    width: 50px;
+    margin-top: 8px;
+    background-color: #cdd9e8;
+}
+  
+
+.custom{
+    width: 300px;
+}
+
+
+.btnBg{
+background-color: #4249E5;
+}
+
+/* .btnDiv::after{
+    content: "choose";
+    display: flex;
+background-color: #4249E5a;} */
