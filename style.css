@@ -169,7 +169,18 @@ background-color: #4249E5;
 
 #backG{
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
 }
+
+
+/* media query  */
+
+
+/* @media screen and (width: 480px) {
+    #backG {
+      overflow: visible;
+      overflow-y: scroll;
+    }
+  } */
