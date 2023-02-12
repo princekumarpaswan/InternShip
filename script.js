@@ -65,16 +65,27 @@ const animation = () => {
             const btnText = document.getElementById('btnText')
             btnText.classList.remove('visually-hidden')
 
+
+            const imgSpin = () => {
+                const load = document.getElementById('kmap')
+                load.classList.add('visually-hidden')
+
+                const dateData = document.getElementById('dateData')
+                dateData.classList.remove('visually-hidden')
+            }
+            setTimeout(imgSpin, 500)
+
+
+            const load = document.getElementById('kmap')
+            load.classList.remove('visually-hidden')
+
             const backG = document.getElementById('backG')
             backG.style.transition = "all 2s ease "
             backG.style.backgroundImage = "url('./back.png')"
 
 
 
-            const load = document.getElementById('kmap')
-            load.classList.add('visually-hidden')
-            const dateData = document.getElementById('dateData')
-            dateData.classList.remove('visually-hidden')
+
 
 
 
