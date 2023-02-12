@@ -178,9 +178,24 @@ background-color: #4249E5;
 /* media query  */
 
 
-/* @media screen and (width: 480px) {
-    #backG {
-      overflow: visible;
-      overflow-y: scroll;
+@media screen and (max-width: 600px) {
+     
+    .boldF{
+        margin-right: -220px;
+        font-size: 40px;
     }
-  } */
+
+.jet{
+    margin-left: 200px;
+}
+
+.jetfirst{
+ margin-left: 55px;
+}
+
+.jetSecond{
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+  }

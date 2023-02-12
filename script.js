@@ -78,8 +78,17 @@ const animation = () => {
 
 
 
-            const reset = document.getElementById('reset')
-            reset.innerText = 'Choose Base Plan'
+
+
+            const windoSize = window.innerWidth
+            console.log(windoSize);
+            if (windoSize > 580) {
+                const reset = document.getElementById('reset')
+                reset.innerText = 'Choose Base Plan'
+            } else {
+                const reset = document.getElementById('reset')
+                reset.innerText = 'Back'
+            }
 
 
 
@@ -90,16 +99,26 @@ const animation = () => {
     }
     setTimeout(hide, 400)
 
-    timeline.add({
-        targets: '.targetCenter',
-        translateX: 320,
-        uration: 3000,
-    })
-    timeline.add({
-        targets: '.targetButton',
-        translateX: 450,
-        uration: 3000,
-    }, '-=1000')
+    const windoSize = window.innerWidth
+    console.log(windoSize);
+    if (windoSize > 580) {
+        timeline.add({
+            targets: '.targetCenter',
+            translateX: 320,
+            uration: 3000,
+        })
+
+        timeline.add({
+            targets: '.targetButton',
+            translateX: 450,
+            uration: 3000,
+        }, '-=1000')
+    }
+
+
+
+
+
 
 }
 
