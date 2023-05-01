@@ -4,7 +4,7 @@ console.log('working');
 
 const animation = () => {
 
-    // animation starts
+    // animation starts. 
 
     const timeline = anime.timeline({
         duration: 900,
