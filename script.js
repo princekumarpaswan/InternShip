@@ -16,6 +16,8 @@ const animation = () => {
         uration: 3000,
 
     });
+
+
     timeline.add({
         targets: '.targetRight',
         translateX: -250,
