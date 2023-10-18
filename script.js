@@ -1,9 +1,6 @@
 console.log('working');
 
 
-
-
-
 const animation = () => {
 
     // animation starts. 
